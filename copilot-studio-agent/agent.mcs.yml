@@ -1,0 +1,18 @@
+mcs.metadata:
+  componentName: NewsFetching
+kind: GptComponentMetadata
+displayName: NewsFetching
+instructions:
+responseInstructions:
+gptCapabilities:
+  webBrowsing: false
+  codeInterpreter: false
+
+conversationStarters:
+  - title: Fetch News
+    text: news update
+
+aISettings:
+  model: {}
+  extensionData:
+    lastUsedCustomModel: {}

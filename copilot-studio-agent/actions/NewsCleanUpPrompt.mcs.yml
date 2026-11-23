@@ -1,0 +1,15 @@
+mcs.metadata:
+  componentName: NewsCleanUpPrompt
+kind: TaskDialog
+inputs:
+  - kind: AutomaticTaskInput
+    propertyName: Input
+    name: Input
+
+modelDisplayName: NewsSortPrompt
+modelDescription: NewsCleanUpPrompt
+action:
+  kind: InvokeAIBuilderModelTaskAction
+  aIModelId: 00000000-0000-0000-0000-000000000002
+
+outputMode: All
